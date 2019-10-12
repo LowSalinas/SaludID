@@ -1,0 +1,208 @@
+
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+    <head>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel = "stylesheet" type = "text/css" href = "{%static 'bootstrap.min.css' %}" />
+        <link rel = "stylesheet" type = "text/css" href = "{%static 'estilos.css' %}" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+        <meta name="generator" content="Jekyll v3.8.5">
+        <title>SRN INGRESO</title>
+    
+        <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/blog/">
+    
+        <!-- Bootstrap core CSS -->
+    <link href="/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    
+        <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+    
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+            }
+        }
+        </style>
+        <!-- Custom styles for this template -->
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="blog.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+    <header class="blog-header py-3">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col-14 text-center">
+            <div class="p-3 mb-2 bg-light text-dark">Registro Nacional de Salud</div>
+            <a class="blog-header text-dark" href="#"></a>
+        </div>
+        <div class="col-4 d-flex justify-content-end align-items-center">
+        </div>
+        <div class="input-group mb-3">
+    <!-- ###########################################################################################3 -->
+    <form action="resultado" method="get">
+        <p>Ingrese ID a Buscar: <input type="number" name="numero" value=""/></p>
+        <p><input type="submit" value="OK"/></p>
+        </form>
+
+
+           
+        </div>
+    </header>
+    
+
+    
+    <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
+        <div class="col-md-6 px-0">
+        <h2 class="display-15 unset">Control de pacientes con problemas de sobrepeso.</h2>
+        <p class="lead my-3">Es una plataforma capaz de conectar al paciente y a los profesionales de la salud.</p>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-md-6">
+        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">Doctor</strong>
+            <h3 class="mb-0">Nombre</h3>
+            <div class="mb-1 text-muted">Cédula profesional</div>
+            <p class="card-text mb-auto">Número de telefono.</p>
+            <p class="card-text mb-auto">Correo.</p>
+            </div>
+            
+        </div>
+        </div>
+        <div class="col-md-6">
+        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success">Nutriólogo</strong>
+            <h3 class="mb-0">Nombre</h3>
+            <div class="mb-1 text-muted">Cédula profesio</div>
+            <p class="mb-auto">Número de telefono.</p>
+            <p class="mb-auto">Correo.</p>
+            
+        
+        </div>
+        </div>
+    </div>
+    </div>
+    
+    <div class="card-deck">
+        <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Paciente</h5>
+            <p class="card-text">Número de ID.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+        </div>
+        <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Doctor</h5>
+            <p class="card-text">Cédula profesional.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+        </div>
+        <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Nutriólogo</h5>
+            <p class="card-text">Cédula profesional.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+        </div>
+    </div>
+
+
+
+    <main role="main" class="container">
+    <div class="row">
+        <div class="col-md-8 blog-main">
+        <h3 class="pb-4 mb-4 font-italic border-bottom">
+            Historial Clínico 
+        </h3>
+    
+        <div class="blog-post">
+            <h2 class="blog-post-title">Nombre</h2>
+            <p class="blog-post-meta">Número de ID </p>
+            <hr>
+            <h2>Fecha nacimiento:</h2>
+            <p> #####.</p>
+            <blockquote>
+            <hr>
+            <h2>Edad:</h2>
+            <p> #####.</p>
+            <blockquote>
+            <hr>
+            <h2>Peso:</h2>
+            <p> #####.</p>
+            <blockquote>
+            <hr>
+            <h2>Altura:</h2>
+            <p> #####.</p>
+            <blockquote>
+            <hr>
+            <h2>IMC:</h2>
+            <p> #####.</p>
+            <blockquote>
+            <hr>
+        </div>
+        <div class="card bg-light mb-3" style="max-width: 18rem;">
+            <div class="card-header">Observaciones</div>
+            <div class="card-body">
+            <p class="card-text">bla bla.</p>
+            </div>
+
+        
+    
+        </div><!-- /.blog-main -->
+    
+        </aside>
+        <div class="p-4">
+            <h4 class="font-italic">Archivos</h4>
+            <ol class="list-unstyled mb-0">
+            <li><a href="#">Marzo 2014</a></li>
+            <li><a href="#">Febrero 2014</a></li>
+            <li><a href="#">Enero 2014</a></li>
+            <li><a href="#">Diciembre 2013</a></li>
+            <li><a href="#">Noviembre 2013</a></li>
+            <li><a href="#">Octubre 2013</a></li>
+            <li><a href="#">Septiembre 2013</a></li>
+
+            </ol>
+        </div>
+    
+        <div class="p-4">
+            <h4 class="font-italic">Estudios</h4>
+            <ol class="list-unstyled">
+            <li><a href="#">Rayos X</a></li>
+            <li><a href="#">Tomografía</a></li>
+            <li><a href="#">Hemodinamia</a></li>
+            </ol>
+        </div>
+        </aside><!-- /.blog-sidebar -->
+    
+    </div><!-- /.row -->
+    
+    </main><!-- /.container -->
+    
+    </footer>
+    </body>
+    </html>
